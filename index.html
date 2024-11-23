@@ -16,7 +16,7 @@
           <img src="./img/img-7.jpg" class="main-screen-img" alt="">
          </div>
 
-         <div class="contain-box">
+         <div class="contain-box" id="contain-box">
            <div class="box">
             <img src="./img/img-1.avif" class="profile-pic" alt="pic">
             <p class="candidate-name">Ethan</p>
@@ -43,13 +43,13 @@
            </div>
          </div>
 
-         <div class="peoples-container">
-
+         <div class="peoples-container" id="peoples-container">
+           <img src="./img/close.png" id="close-window" onclick="closeOpe()" alt="close-window">
            <h2 class="people-heading">People</h2>
            <p class="add-people-btn"><img src="./img/add-user.png" class="add-users" alt="">Add people</p>
            <div class="input-box">
-            <input type="text" class="people-input" id="">
-            <img src="./img/search.png" class="search-icon" alt="search">
+            <input type="text" id="input-name" class="people-input" >
+            <img src="./img/search.png" class="search-icon" onclick="showResult()" alt="search">
            </div>
            <div class="meeting-people-container">
             <h4 class="in-meeting-heading">
@@ -60,24 +60,12 @@
                     Contributors
                 </h2>
            
-                <div class="contributors-box">
+                <div class="contributors-box" id="contributors-box">
                  
-                <div class="people-contain">
-                    <p class="people-icon">a</p>
-                   <div class="joined-people">
-                    <h4>Adity madhav</h4>
-                     <p>Meeting host</p>
-                   </div>
-                   <div class="people-voice">
-                    <img src="./img/microphone.png" class="people-icon-style microphone-icon" alt="microphone">
-                    <img src="./img/dots.png" class="people-icon-style" alt="people-info">
-                   </div>
-                </div>
-
-                <div class="people-contain">
-                    <p class="people-icon">r</p>
+             <div class="people-contain">
                <div class="joined-people">
-                <h4>Rohit mehara</h4>
+                <p class="people-icon">r</p>
+                <h4 class="student-name">Rohit(H) </h4>
                </div>
                <div class="people-voice">
                 <img src="./img/microphone.png" class="people-icon-style microphone-icon" alt="microphone">
@@ -86,44 +74,7 @@
             </div>
   
 
-            <div class="people-contain">
-                <p class="people-icon">e</p>
-           <div class="joined-people">
-            <h4>Ethian kieona</h4>
-           </div>
-           <div class="people-voice">
-            <img src="./img/microphone.png" class="people-icon-style microphone-icon" alt="microphone">
-            <img src="./img/dots.png" class="people-icon-style" alt="people-info">
-           </div>
-        </div>
-
-
-        <div class="people-contain">
-            <p class="people-icon">n</p>
-       <div class="joined-people">
-        <h4>Noaha rionay</h4>
-       </div>
-       <div class="people-voice">
-        <img src="./img/microphone.png" class="people-icon-style microphone-icon" alt="microphone">
-        <img src="./img/dots.png" class="people-icon-style" alt="people-info">
-       </div>
     </div>
-          
-
-    
-    <div class="people-contain">
-        <p class="people-icon">r</p>
-   <div class="joined-people">
-    <h4>Ryan rieoonay</h4>
-   </div>
-   <div class="people-voice">
-    <img src="./img/microphone.png" class="people-icon-style microphone-icon" alt="microphone">
-    <img src="./img/dots.png" class="people-icon-style" alt="people-info">
-   </div>
-</div>
-             
-
-            </div>
 
 
 
@@ -150,7 +101,7 @@
 
            <div class="meeting-about-icon">
             <img src="./img/information.png" class="about-icon" alt="about-icon">
-            <img src="./img/team.png" class="about-icon" alt="about-icon">
+            <img src="./img/team.png" class="about-icon" onclick="performOpe()" alt="about-icon">
             <img src="./img/messeges.png" class="about-icon" alt="about-icon">
             <img src="./img/customer-experience.png" class="about-icon" alt="about-icon">
             <img src="./img/user.png" class="about-icon" alt="about-icon">
@@ -160,6 +111,6 @@
     </div>
 
 
-
+<script src="app.js"></script>
 </body>
 </html>

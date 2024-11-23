@@ -42,7 +42,6 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    display: none;
 }
 
 .main-screen-img{
@@ -116,6 +115,16 @@
     height: 100%;
     width: 30%;
     border-radius: 10px;
+    position: relative;
+    display: none;
+}
+
+#close-window{
+    height: 25px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
 }
 
 .add-people-btn{
@@ -177,28 +186,32 @@
     border-top: 1px solid #5e5555;
     padding: 5px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    justify-content: space-between; 
+    align-items: center;  
 }
 
 .people-icon{
     background-color: #65be78;
     border-radius: 50%;
-    padding: 5px 15px;
+    padding: 7px 15px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
+
 .joined-people{
     padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 .people-icon-style{
     height: 25px;
     cursor: pointer;
-
 }
 
 .microphone-icon{
@@ -207,4 +220,8 @@
 
 .people-voice{
     margin-left: 8rem;
+}
+
+.student-name{
+    padding-left: 20px;
 }
