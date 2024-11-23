@@ -42,6 +42,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    display: none;
 }
 
 .main-screen-img{
@@ -59,7 +60,7 @@
 
 .box{
     height: 120px;
-    width: 150px;
+    width: 170px;
     border-radius: 10px;
     position: relative;
      
@@ -106,4 +107,104 @@
 
 .meeting-name{
     color: #fff;
+}
+
+.peoples-container{
+    background-color: #fff;
+    padding: 10px;
+    margin-right: 40px;
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.add-people-btn{
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: #99ddff;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.people-heading{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.add-users{
+    height: 25px;
+    padding: 3px;
+    margin-right: 4px;
+
+}
+
+.input-box{
+    padding: 20px 0px;
+    position: relative;
+}
+
+.people-input{
+    width: 95%;
+    padding: 4px;
+    padding-left: 38px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #302e2e;
+}
+
+.search-icon{
+    height: 25px;
+    position: absolute;
+    top: 28px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.in-meeting-heading{
+    color: #5f5757;
+    padding: 10px 0px;
+}
+
+.contributors-container{
+    border: 1px solid #504b4b;
+    border-radius: 10px;
+}
+
+.people-contain{
+    border-top: 1px solid #5e5555;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.people-icon{
+    background-color: #65be78;
+    border-radius: 50%;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joined-people{
+    padding: 0px 20px;
+}
+
+.people-icon-style{
+    height: 25px;
+    cursor: pointer;
+
+}
+
+.microphone-icon{
+    margin-right: 10px;
+}
+
+.people-voice{
+    margin-left: 8rem;
 }
